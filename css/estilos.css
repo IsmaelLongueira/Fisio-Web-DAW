@@ -17,9 +17,6 @@
 body{
     font-family: Arial, sans-serif;
     background-color: var(--cor-fondo);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     margin: 0;
     color: var(--cor-texto);
@@ -55,7 +52,17 @@ body{
 
 .main{
     height: 700px;
+   
     background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tarjeta{
+    display: grid;
+    grid-template-columns: 2fr 1fr 0;
+    
 }
 
 .footer{
